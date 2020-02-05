@@ -1,0 +1,51 @@
+body{
+    background: rgb(181, 240, 240);
+}
+
+.wrapper img {
+    display: none;
+}
+#presentation h1 {
+    font-size: 16px
+}
+
+#presentation .sister p {
+    font-size: 15px
+}
+nav ul {
+    display: flex;
+    width: 70%;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.presentation .dog p {
+    font-size: 15px;
+    width: 100%;
+}
+.presentation .image img{
+    display: none;
+}
+.metier p, li {
+    font-size: 15px;
+}
+
+.metier h3 {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    font-size: 12px;
+}

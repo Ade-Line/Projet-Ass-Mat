@@ -1,0 +1,269 @@
+/* :root{
+    --color-primary: blue,
+} 
+nav{
+    color: var(--color-primary);
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/pencil-2782840_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    box-shadow: 1px 10px 3px -3px grey;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, white, rgb(239, 175, 241));
+}
+
+.wrapper img {
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 2px;
+
+}
+
+nav a {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+/* section */
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#presentation .sister p {
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+#presentation h1,
+p,
+h3,
+li {
+    font-family: 'Milonga', cursive;
+}
+
+#presentation h1 {
+    font-size: 30px;
+}
+
+.presentation {
+    display: flex;
+}
+
+.presentation .dog {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0px 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* .presentation .dog p{
+    margin: 0px 50px
+} */
+
+.image {
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+
+.image img {
+    width: 25%;
+    /* padding: 100px 300px 0px 0px; */
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.metier {
+    margin-top: 40px;
+}
+
+.metier p,
+li {
+    font-size: 18px;
+}
+
+.metier h3 {
+    padding: 15px 0px;
+    font-size: 25px;
+}
+
+.metier .info p {
+    margin: 15px;
+    padding: 10px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    font-size: 18px;
+}
+
+/* Onglet Contact */
+.intro {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+#formulaire {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulaire p,
+textarea,
+input,
+label {
+    margin: 3px;
+    padding: 3px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+input,
+textarea {
+    border: 1px solid rgb(111, 162, 219);
+    border-radius: 10px;
+    outline: none;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+label {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+
+input[type=submit] {
+    background-color: rgb(214, 222, 243);
+    border-radius: 15px;
+    box-shadow: 1px 1px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: rgb(239, 175, 241);
+}
+
+input[type=submit]:active,
+input[type=reset]:active {
+    background-color: rgb(239, 175, 241);
+}
+
+/* Onglet Parents */
+section {
+    width: 100%;
+}
+.assistante h1{
+    font-size: 30px;
+}
+.projet h1{
+    font-size: 30px;
+}
+.adaptation h1{
+    font-size: 30px;
+}
+.assistante p{
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.projet p{
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.adaptation p{
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.assistante{
+    margin: 10px;
+    padding: 5px;
+}
+.projet{
+    margin: 10px;
+    padding: 5px;
+}
+.adaptation{
+    margin: 10px;
+    padding: 5px;
+}
