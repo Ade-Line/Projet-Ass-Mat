@@ -403,3 +403,19 @@ section {
     margin: 10px;
     padding: 5px;
 }
+/* Onglet enfants */
+.bb h1 {
+    font-size: 30px;
+}
+
+.bb p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.bb {
+    margin: 10px;
+    padding: 5px;
+}
