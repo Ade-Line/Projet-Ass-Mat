@@ -228,42 +228,178 @@ input[type=reset]:active {
 section {
     width: 100%;
 }
-.assistante h1{
+
+.assistante h1 {
     font-size: 30px;
 }
-.projet h1{
+
+.projet h1 {
     font-size: 30px;
 }
-.adaptation h1{
+
+.adaptation h1 {
     font-size: 30px;
 }
-.assistante p{
+
+.assistante p {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
     text-align: center;
 }
-.projet p{
+
+.projet p {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
     text-align: center;
 }
-.adaptation p{
+
+.adaptation p {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
     text-align: center;
 }
-.assistante{
+
+.assistante {
     margin: 10px;
     padding: 5px;
 }
-.projet{
+
+.projet {
     margin: 10px;
     padding: 5px;
 }
-.adaptation{
+
+.adaptation {
+    margin: 10px;
+    padding: 5px;
+}
+
+.accueil h1 {
+    font-size: 30px;
+}
+
+.accueil p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.accueil {
+    margin: 10px;
+    padding: 5px;
+}
+
+.activite h1 {
+    font-size: 30px;
+}
+
+.activite p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.activite {
+    margin: 10px;
+    padding: 5px;
+}
+
+.repas h1 {
+    font-size: 30px;
+}
+
+.repas p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.repas {
+    margin: 10px;
+    padding: 5px;
+}
+
+.doudou h1 {
+    font-size: 30px;
+}
+
+.doudou p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.doudou {
+    margin: 10px;
+    padding: 5px;
+}
+
+.couche h1 {
+    font-size: 30px;
+}
+
+.couche p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.couche {
+    margin: 10px;
+    padding: 5px;
+}
+
+.propre h1 {
+    font-size: 30px;
+}
+
+.propre p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.propre {
+    margin: 10px;
+    padding: 5px;
+}
+
+.bobo h1 {
+    font-size: 30px;
+}
+
+.bobo p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.bobo {
+    margin: 10px;
+    padding: 5px;
+}
+
+.particulier h1 {
+    font-size: 30px;
+}
+
+.particulier p {
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.particulier {
     margin: 10px;
     padding: 5px;
 }
