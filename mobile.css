@@ -5,28 +5,35 @@ body{
 .wrapper img {
     display: none;
 }
-#presentation h1 {
-    font-size: 16px
+#container{
+    width: 100%;
 }
+#presentation{
+    padding: 0;
+    width: 90%;
+}
+#presentation h1 {
+    font-size: 16px;
+  }
 
 #presentation .sister p {
     font-size: 15px
+    margin: 0;
+    padding: 0;
 }
 nav ul {
     display: flex;
     width: 70%;
 }
 
-nav li {
-    margin: 0;
-    padding: 0;
-}
 
 nav a {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px;
+    margin-left: 20px;
+       
 }
 .presentation .dog p {
     font-size: 15px;
@@ -44,8 +51,36 @@ nav a {
 }
 
 footer {
-    display: flex;
+    display: inline-block;
     justify-content: flex-end;
     width: 90%;
     font-size: 12px;
+}
+.bb h1{
+    font-size: 16px;
+}
+.bb p{
+    font-size: 15px;
+}
+.photos{
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
+#formulaire{
+    display: inline-block;
+}
+.intro p{
+    font-size: 15px;
+    text-align: center;
+}
+label {
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+footer{
+    margin-top: 50px;
+    text-align: right;
 }
