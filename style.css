@@ -80,6 +80,7 @@ nav a:hover {
     text-align: center;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
 }
 
 #presentation h1,
@@ -106,10 +107,6 @@ li {
     font-size: 18px;
 }
 
-/* .presentation .dog p{
-    margin: 0px 50px
-} */
-
 .image {
     display: flex;
     justify-content: center;
@@ -118,7 +115,6 @@ li {
 
 .image img {
     width: 25%;
-    /* padding: 100px 300px 0px 0px; */
 }
 
 ul li {
@@ -134,6 +130,7 @@ ul li {
 .metier p,
 li {
     font-size: 18px;
+    line-height: 150%;
 }
 
 .metier h3 {
@@ -144,26 +141,26 @@ li {
 .metier .info p {
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
 }
 
 /* footer */
+
 footer {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     width: 90%;
     font-size: 18px;
 }
 
 /* Onglet Contact */
+
 .intro {
     display: flex;
     height: 10vh;
     justify-content: center;
     align-items: center;
-}
-
-.intro p {
-    font-size: 18px;
 }
 
 #formulaire {
@@ -225,6 +222,7 @@ input[type=reset]:active {
 }
 
 /* Onglet Parents */
+
 section {
     width: 100%;
 }
@@ -245,6 +243,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -252,6 +251,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -259,6 +259,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -285,6 +286,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
 }
 
 .accueil {
@@ -300,6 +302,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -316,6 +319,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -332,6 +336,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -348,6 +353,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -364,6 +370,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -380,6 +387,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -396,6 +404,7 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
@@ -403,7 +412,9 @@ section {
     margin: 10px;
     padding: 5px;
 }
+
 /* Onglet enfants */
+
 .bb h1 {
     font-size: 30px;
 }
@@ -412,10 +423,17 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
+    line-height: 150%;
     text-align: center;
 }
 
 .bb {
     margin: 10px;
     padding: 5px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px
 }
