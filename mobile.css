@@ -1,31 +1,33 @@
-body{
+body {
     background: rgb(181, 240, 240);
 }
 
 .wrapper img {
     display: none;
 }
-#container{
+
+#container {
     width: 100%;
 }
-#presentation{
+
+#presentation {
     padding: 0;
     width: 90%;
 }
+
 #presentation h1 {
     font-size: 16px;
-  }
+}
 
 #presentation .sister p {
-    font-size: 15px
-    margin: 0;
+    font-size: 15px margin: 0;
     padding: 0;
 }
+
 nav ul {
     display: flex;
     width: 70%;
 }
-
 
 nav a {
     display: flex;
@@ -33,16 +35,19 @@ nav a {
     align-items: center;
     font-size: 15px;
     margin-left: 20px;
-       
 }
+
 .presentation .dog p {
     font-size: 15px;
     width: 100%;
 }
-.presentation .image img{
+
+.presentation .image img {
     display: none;
 }
-.metier p, li {
+
+.metier p,
+li {
     font-size: 15px;
 }
 
@@ -56,109 +61,136 @@ footer {
     width: 90%;
     font-size: 12px;
 }
-footer p{
-    /* display: flex;
-    justify-content: flex-end;
-    align-content: flex-end; */
+
+footer p {
     height: 10vh;
 }
-.bb h1{
+
+.bb h1 {
     font-size: 16px;
 }
-.bb p{
+
+.bb p {
     font-size: 15px;
 }
-.photos{
+
+.photos {
     flex-direction: column;
     margin: auto;
     width: 80%;
 }
-#formulaire{
+
+#formulaire {
     display: inline-block;
 }
-.intro p{
+
+.intro p {
     font-size: 15px;
     text-align: center;
 }
-.assistante h1{
+
+.assistante h1 {
     font-size: 16px;
 }
-.assistante p{
+
+.assistante p {
     font-size: 15px;
 }
-.projet h1{
+
+.projet h1 {
     font-size: 16px;
 }
-.projet p{
+
+.projet p {
     font-size: 15px;
 }
-.adaptation h1{
+
+.adaptation h1 {
     font-size: 16px;
 }
-.adaptation p{
+
+.adaptation p {
     font-size: 15px;
 }
-.accueil h1{
+
+.accueil h1 {
     font-size: 16px;
 }
-.accueil p{
+
+.accueil p {
     font-size: 15px;
 }
-.activite h1{
+
+.activite h1 {
     font-size: 16px;
 }
-.activite p{
+
+.activite p {
     font-size: 15px;
 }
-.repas h1{
+
+.repas h1 {
     font-size: 16px;
 }
-.repas p{
+
+.repas p {
     font-size: 15px;
 }
-.doudou h1{
+
+.doudou h1 {
     font-size: 16px;
 }
-.doudou p{
+
+.doudou p {
     font-size: 15px;
 }
-.couche h1{
+
+.couche h1 {
     font-size: 16px;
 }
-.couche p{
+
+.couche p {
     font-size: 15px;
 }
-.propre h1{
+
+.propre h1 {
     font-size: 16px;
 }
-.propre p{
+
+.propre p {
     font-size: 15px;
 }
-.bobo h1{
+
+.bobo h1 {
     font-size: 16px;
 }
-.bobo p{
+
+.bobo p {
     font-size: 15px;
 }
-.particulier h1{
+
+.particulier h1 {
     font-size: 16px;
 }
-.particulier p{
+
+.particulier p {
     font-size: 15px;
 }
-.tarifs h1{
+
+.tarifs h1 {
     font-size: 16px;
 }
-.tarifs p{
+
+.tarifs p {
     font-size: 15px;
 }
-.tarifs li{
+
+.tarifs li {
     font-size: 15px;
 }
+
 label {
     font-family: 'Courgette', cursive;
     font-size: 15px;
     text-align: justify;
 }
-
-

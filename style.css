@@ -46,7 +46,6 @@ nav ul {
     display: flex;
     list-style-type: none;
     margin-right: 2px;
-
 }
 
 nav a {
@@ -166,7 +165,6 @@ footer {
 }
 footer p{
     display: flex;
-
 }
 
 /* Onglet Contact */
