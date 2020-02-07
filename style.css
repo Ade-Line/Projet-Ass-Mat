@@ -127,11 +127,12 @@ li {
 }
 
 .image ul li{
-    list-style-type: none;
     margin: 0px 20px;
     padding: 10px;
 }
-
+li{
+    list-style-type: none;
+}
 .metier {
     margin-top: 40px;
 }
@@ -429,7 +430,12 @@ section {
     margin: 10px;
     padding: 5px;
 }
-
+.tarifs li{
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    line-height: 150%;
+}
 /* Onglet enfants */
 
 .bb h1 {
