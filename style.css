@@ -111,13 +111,22 @@ li {
     display: flex;
     justify-content: center;
     transform: rotate(90deg);
+    
 }
 
 .image img {
-    width: 25%;
+        width: 25%;
+        -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image img:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
-ul li {
+.image ul li{
     list-style-type: none;
     margin: 0px 20px;
     padding: 10px;
@@ -431,8 +440,8 @@ section {
     font-size: 18px;
     margin: 15px;
     padding: 10px;
-    line-height: 150%;
     text-align: center;
+    line-height: 150%;
 }
 
 .bb {
@@ -444,4 +453,14 @@ section {
     display: flex;
     justify-content: space-around;
     padding: 20px
+}
+.photos img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photos img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }

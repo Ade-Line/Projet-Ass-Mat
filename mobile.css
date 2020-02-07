@@ -51,10 +51,16 @@ nav a {
 }
 
 footer {
-    display: inline-block;
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
     width: 90%;
     font-size: 12px;
+}
+footer p{
+    /* display: flex;
+    justify-content: flex-end;
+    align-content: flex-end; */
+    height: 10vh;
 }
 .bb h1{
     font-size: 16px;
@@ -154,8 +160,5 @@ label {
     font-size: 15px;
     text-align: justify;
 }
-/* footer{
-    display: inline-block;
-     
-} */
+
 
