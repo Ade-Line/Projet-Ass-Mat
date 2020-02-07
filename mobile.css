@@ -74,13 +74,88 @@ footer {
     font-size: 15px;
     text-align: center;
 }
+.assistante h1{
+    font-size: 16px;
+}
+.assistante p{
+    font-size: 15px;
+}
+.projet h1{
+    font-size: 16px;
+}
+.projet p{
+    font-size: 15px;
+}
+.adaptation h1{
+    font-size: 16px;
+}
+.adaptation p{
+    font-size: 15px;
+}
+.accueil h1{
+    font-size: 16px;
+}
+.accueil p{
+    font-size: 15px;
+}
+.activite h1{
+    font-size: 16px;
+}
+.activite p{
+    font-size: 15px;
+}
+.repas h1{
+    font-size: 16px;
+}
+.repas p{
+    font-size: 15px;
+}
+.doudou h1{
+    font-size: 16px;
+}
+.doudou p{
+    font-size: 15px;
+}
+.couche h1{
+    font-size: 16px;
+}
+.couche p{
+    font-size: 15px;
+}
+.propre h1{
+    font-size: 16px;
+}
+.propre p{
+    font-size: 15px;
+}
+.bobo h1{
+    font-size: 16px;
+}
+.bobo p{
+    font-size: 15px;
+}
+.particulier h1{
+    font-size: 16px;
+}
+.particulier p{
+    font-size: 15px;
+}
+.tarifs h1{
+    font-size: 16px;
+}
+.tarifs p{
+    font-size: 15px;
+}
+.tarifs li{
+    font-size: 15px;
+}
 label {
     font-family: 'Courgette', cursive;
     font-size: 15px;
     text-align: justify;
-    
 }
-footer{
-    margin-top: 50px;
-    text-align: right;
-}
+/* footer{
+    display: inline-block;
+     
+} */
+
